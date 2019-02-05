@@ -5,5 +5,5 @@
 		/usr/local/bin/git-prompt.sh	 	   (Line 40)
 		
 		
-	This git includes a shell script called copy.sh that automaticly copies both of these files to appropriate locations.
-		
+	This git includes a file copy.sh - run it in terminal by typing ./copy.sh (while working directory contains copy.sh that is)
+	and then restart terminal.app.
