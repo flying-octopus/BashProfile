@@ -30,16 +30,19 @@
     light_green="\[\e[38;5;121m\]"
     bluish="\[\e[1m\[\e[38;5;105m\]"
     light_yellow="\[\e[93m\]"
+    lighter_yellow="\[\e[33;1m\]"
      
 #   Enable tab completion
 #   ------------------------------------------------------------   
-    source /usr/local/bin/git-completion.bash						# File included in github
+    source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash						# File included in github
 		
 #   Change Prompt
 #   ------------------------------------------------------------
-    source /usr/local/bin/git-prompt.sh								# You need to import that for (__git_ps1) to work properly, file included in github
+    source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh								# You need to import that for (__git_ps1) to work properly, file included in github
     export GIT_PS1_SHOWDIRTYSTATE=1								# Required for git
-    export PS1="$light_green\u$light_yellow\$(__git_ps1)$reset$bluish \W$reset $ "
+    export PS1="$light_green\u$lighter_yellow\$(__git_ps1)$reset$bluish \W$reset $ "
+#   export PS1='\[\e]0;\u@\h: \w\a\]\[\e[32;1m\]\u@\h:\w \[\e[33;1m\]$(__git_ps1 "[%s] ")\[\e[32;1m\]\$ \[\e[0m\]'  # Other version of PS1
+    
 #   '\u' adds the name of the current user to the prompt
 #   '\$(__git_ps1)' adds git-related stuff
 #   '\W' adds the name of the current directory
@@ -51,7 +54,7 @@
 #
 #   Set Default Editor (change 'mate' to the editor of your choice)
 #   ------------------------------------------------------------
-    export EDITOR=/usr/local/bin/mate
+    export EDITOR="/usr/local/bin/mate -w"
 
 #   Set default blocksize for ls, df, du
 #   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
@@ -109,6 +112,7 @@ alias make5mb='mkfile 5m ./5MB.dat'         				 							   # make5mb:      Creat
 alias make10mb='mkfile 10m ./10MB.dat'					 		 					   # make10mb:     Creates a file of 10mb size (all zeros)
 enc () { openssl enc -aes-256-cbc -e -in "$1" -out enc_"$1" ; rm -fr "$1" ; mv enc_"$1" "$1" ; }  # enc: 	    Encrypts a file with password using 256-bit encryption
 dec () { openssl enc -aes-256-cbc -d -in "$1" -out dec_"$1" ; rm -fr "$1" ; mv dec_"$1" "$1" ; }  # dec:		    Decrypts a 256-bit encrypted file
+preview () { open -a Preview "$1" ; }												   # preview:      Opens a file with a "Preview.app"
 
 #   cdf:  'Cd's to frontmost window of MacOS Finder
 #   ------------------------------------------------------
