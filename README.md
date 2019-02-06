@@ -1,3 +1,4 @@
+Please note that this bash profile will only work in MacOS
 .bash_profile inspired by https://natelandau.com/my-mac-osx-bash_profile/
 
 	It requires following files to be working : 
