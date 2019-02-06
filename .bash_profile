@@ -19,7 +19,7 @@
 
 #   Colours! Generated using method mentioned in link below.
 #   https://misc.flogisoft.com/bash/tip_colors_and_formatting -- This shows how to format colours and style of font!
-#   /Users/wiktor/Documents/computer_science/programs/visualize_colours -- Directory of a shell script that visualises colour's numbers
+#   Shell script that visualizes colours is called 256-colors.sh
 #   ------------------------------------------------------------
     green="\[\033[0;32m\]"
     blue="\[\033[0;34m\]"
