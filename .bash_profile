@@ -3,6 +3,7 @@
 #
 #  Sections:
 #  1.  Environment Configuration
+#  1.a Brew Configuration
 #  2.  Make Terminal Better (remapping defaults and adding functionality)
 #  3.  File and Folder Management
 #  4.  Searching
@@ -34,11 +35,11 @@
      
 #   Enable tab completion
 #   ------------------------------------------------------------   
-    source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash						# File included in github
+#    source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash						# File included in github
 		
 #   Change Prompt
 #   ------------------------------------------------------------
-    source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh								# You need to import that for (__git_ps1) to work properly, file included in github
+#    source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh								# You need to import that for (__git_ps1) to work properly, file included in github
     export GIT_PS1_SHOWDIRTYSTATE=1																# Required for git
     export PS1="$light_green\u$lighter_yellow\$(__git_ps1)$reset$bluish \W$reset $ "
 #   export PS1='\[\e]0;\u@\h: \w\a\]\[\e[32;1m\]\u@\h:\w \[\e[33;1m\]$(__git_ps1 "[%s] ")\[\e[32;1m\]\$ \[\e[0m\]'  # Other version of PS1
@@ -49,15 +50,15 @@
     
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+#    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
 #   export PATH="PATH:/directory" 
 #
 #   Set Default Editor (change 'mate' to the editor of your choice)
 #   ------------------------------------------------------------
-    export EDITOR="/usr/local/bin/mate -w"
+    export EDITOR="/usr/local/bin/subl -w"
 
 #   Set default blocksize for ls, df, du
-#   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
+#   from http://hints.macworld.com/comment.php?mode=view&cid=24491
 #   ------------------------------------------------------------
     export BLOCKSIZE=1k
 
@@ -68,6 +69,15 @@
     export CLICOLOR=1
     export LSCOLORS=ExFxBxDxCxegedabagacad
 
+#   -------------------------------
+#   1.a BREW CONFIGURATION
+#   -------------------------------
+
+#   Disable the beer emoji in Homebrew
+#   from https://evanhahn.com/disable-homebrew-emoji/
+#   ------------------------------------------------------------
+    export HOMEBREW_NO_EMOJI=1
+
 
 #   -----------------------------
 #   2. MAKE TERMINAL BETTER
@@ -75,7 +85,7 @@
 alias mkdir='mkdir -pv'                     				# Preferred 'mkdir' implementation
 alias ll='ls -FGlAhp'                       				# Preferred 'ls' implementation
 alias less='less -FSRXc'                    				# Preferred 'less' implementation
-alias ~='cd ~/'									# Change directory to home
+alias ~='cd ~/'									            # Change directory to home
 alias cd..='cd ../'                         				# Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           				# Go back 1 directory level
 alias .2='cd ../../'                        				# Go back 2 directory levels
@@ -83,10 +93,10 @@ alias .3='cd ../../../'                     				# Go back 3 directory levels
 alias .4='cd ../../../../'                  				# Go back 4 directory levels
 alias .5='cd ../../../../../'               				# Go back 5 directory levels
 alias .6='cd ../../../../../../'            				# Go back 6 directory levels
-alias edit='mate'                           				# edit:         Opens any file in sublime editor
+alias edit='subl'                           				# edit:         Opens any file in sublime editor
 alias finder='open -a Finder ./'                 			# finder:            Opens current directory in MacOS Finder
 alias which='type -all'                     				# which:        Find executables
-alias path='echo -e ${PATH//:/\\n}'         				# path:         Echo all executable Paths
+alias PATH='echo -e ${PATH//:/\\n}'         				# path:         Echo all executable Paths
 alias show_options='shopt'                  				# Show_options: display bash options settings
 alias fix_stty='stty sane'                  				# fix_stty:     Restore terminal settings when screwed up
 alias cic='set completion-ignore-case On'   				# cic:          Make tab-completion case-insensitive
@@ -98,7 +108,6 @@ alias wdi='cd ~/Documents/computer_science/wdi/cwiczenia'   # wdi:          Chan
 alias github='cd ~/Documents/computer_science/GitHub'       # github:       Change directory to .../computer_science/GitHub
 alias hide='chflags hidden'							# hide <file>   Hides a file (only applies to finder)
 alias nohide='chflags nohidden'						# nohide <file> Reveals a hidden file (only applies to finder)
-alias showPATH="tr ':' '\n' <<< "$PATH""				# show$PATH 	 echo $PATH in a human readable way
 
 #   -------------------------------
 #   3. FILE AND FOLDER MANAGEMENT
