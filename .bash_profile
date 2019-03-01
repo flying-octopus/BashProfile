@@ -41,7 +41,7 @@
 #   Change Prompt
 #   ------------------------------------------------------------
     source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh								# You need to import that for (__git_ps1) to work properly, file included in github
-    export GIT_PS1_SHOWDIRTYSTATE=1																# Required for git
+    export GIT_PS1_SHOWDIRTYSTATE=1																            # Required for git
     export PS1="$light_green\u$lighter_yellow\$(__git_ps1)$reset$bluish \W$reset $ "
 #   export PS1='\[\e]0;\u@\h: \w\a\]\[\e[32;1m\]\u@\h:\w \[\e[33;1m\]$(__git_ps1 "[%s] ")\[\e[32;1m\]\$ \[\e[0m\]'  # Other version of PS1
     
@@ -94,6 +94,10 @@
 #   ------------------------------------------------------------    
     export LDFLAGS="-L/usr/local/opt/gettext/lib"
     export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+#   Set the terminal programs language to english
+#   ------------------------------------------------------------ 
+    export LANG=en
 
 
 #   -----------------------------
