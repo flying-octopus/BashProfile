@@ -2,7 +2,7 @@
 
 Inspired by [Nate Landou](https://natelandau.com/my-mac-osx-bash_profile/)
 
-## Instalation
+## Installation
 This repository includes a file install.sh in respective MacOS and Linux directories - run it in terminal by typing ./install.sh (while working directory contains install.sh that is)
 and then restart terminal.app.
 You may need to run `source ~/.bashrc` (`source ~/.bash_profile` for MacOS) or restart your terminal program to see the changes.
