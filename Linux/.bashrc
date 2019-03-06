@@ -27,7 +27,7 @@
     pink="\[\033[0;95m\]"
     colour="\[\033[0m\]"
     light_green="\[\e[38;5;121m\]"
-    bluish="\[\e[1m\[\e[38;5;105m\]"
+    bluish="\[\e[38;5;105m\]"
     light_yellow="\[\e[93m\]"
     lighter_yellow="\[\e[33;1m\]"
     macos_orange="\[\e[38;5;222m\]"
@@ -39,8 +39,8 @@
 #   Change Prompt
 #   ------------------------------------------------------------
     source ~/.git-prompt.sh							                                                       	# You need to import that for (__git_ps1) to work properly, file included in repository
-    export GIT_PS1_SHOWDIRTYSTATE=1																            # Required for git
-    export PS1="$light_green\u$lighter_yellow\$(__git_ps1)$reset$bluish \W$reset $ "
+    export GIT_PS1_SHOWDIRTYSTATE=1	                                                                        # Required for git
+    export PS1="$light_green\u$lighter_yellow\$(__git_ps1) $bluish\W $reset$ "
 #   export PS1='\[\e]0;\u@\h: \w\a\]\[\e[32;1m\]\u@\h:\w \[\e[33;1m\]$(__git_ps1 "[%s] ")\[\e[32;1m\]\$ \[\e[0m\]'  # Other version of PS1
     
 #   '\u' adds the name of the current user to the prompt
