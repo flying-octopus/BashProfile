@@ -12,6 +12,6 @@ You may need to run `source ~/.bashrc` (`source ~/.bash_profile` for MacOS) or r
 Program that visualises colours (256-colors.sh) in terminal taken from : [FLOZz' misc](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 
-# Ending note
+### Ending note
 Feel free to customize this bash profile
 
