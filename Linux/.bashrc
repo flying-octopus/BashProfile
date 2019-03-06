@@ -76,6 +76,7 @@
 #   ------------------------------------------------------------
     export CLICOLOR=1
     export LSCOLORS=ExFxBxDxCxegedabagacad
+    alias ls='ls --color'
 
 #   Set the terminal programs language to english
 #   ------------------------------------------------------------ 
@@ -87,7 +88,7 @@
 #   -----------------------------
 alias sudo='sudo '                                                                            # Make sudo aplicable for aliases
 alias mkdir='mkdir -pv'                     				                                  # Preferred 'mkdir' implementation
-alias ll='ls -FGlAhp'                       				                                  # Preferred 'ls' implementation
+alias ll='ls -FGlAhp --color'                       				                                  # Preferred 'ls' implementation
 alias less='less -FSRXc'                    				                                  # Preferred 'less' implementation
 alias ~='cd ~/'									                                              # Change directory to home
 alias cd..='cd ../'                         				                                  # Go back 1 directory level (for fast typers)
