@@ -63,7 +63,7 @@
 #   ------------------------------------------------------------
     export EDITOR="/usr/local/bin/subl -w"
 
-#   Set Visual Editor (to edit crontab)
+#   Set Visual Editor (to edit crontab, and other programs)
 #   ------------------------------------------------------------    
     export VISUAL="/usr/local/bin/subl"
 
@@ -98,7 +98,8 @@
 
 #   Set the terminal programs language to english
 #   ------------------------------------------------------------ 
-    export LANG=en
+    unset LC_ALL
+    export LC_MESSAGES=C
 
 
 #   -----------------------------
@@ -124,11 +125,11 @@ alias show_options='shopt'                  				                # Show_options: 
 alias fix_stty='stty sane'                  				                # fix_stty:     Restore terminal settings when screwed up
 alias cic='set completion-ignore-case On'   				                # cic:          Make tab-completion case-insensitive
 mcd () { mkdir -p "$1" && cd "$1"; }        				                # mcd:          Makes new Dir and jumps inside
-trash(){ x=''; [[ $1 = -s ]] && { x=sudo; shift; }; $x mv "$@" ~/.Trash; }   # trash:        Moves a file to the MacOS trash
+trash(){ x=''; [[ $1 = -s ]] && { x=sudo; shift; }; $x mv "$@" ~/.Trash; }  # trash:        Moves a file to the MacOS trash
 ql () { qlmanage -p "$*" >& /dev/null; }    				                # ql:           Opens any file in MacOS Quicklook Preview
 alias DT='tee ~/Desktop/terminalOut.txt'    				                # DT:           Pipe content to file on MacOS Desktop
 alias wdi='cd ~/Documents/computer_science/wdi/cwiczenia'                   # wdi:          Change directory to .../wdi/cwiczenia
-alias github='cd ~/Documents/computer_science/GitHub'                       # github:       Change directory to .../computer_science/GitHub
+alias github='cd /Users/wiktor/Documents/computer_science/GitHub'           # github:       Change directory to .../computer_science/GitHub
 alias hide='chflags hidden'							                        # hide          Hides a file (only applies to finder)
 alias nohide='chflags nohidden'						                        # nohide        Reveals a hidden file (only applies to finder)
 
@@ -136,8 +137,8 @@ alias nohide='chflags nohidden'						                        # nohide        Rev
 #   3. FILE AND FOLDER MANAGEMENT
 #   -------------------------------
 
-zipf () { zip -r "$1".zip "$1" ; }           			   		   					                   # zipf:         To create a ZIP archive of a folder
-zipfe () { zip -er "$1".zip "$1" ; } 	    				 		 					               # zipfe 	       To create an ecrypted ZIP archive of a folder
+zipf () { zip -r "$1".zip "$1"; }           			   		   					                   # zipf:         To create a ZIP archive of a folder
+zipfe () { zip -er "$1".zip "$1"; } 	    				 		 					               # zipfe 	       To create an ecrypted ZIP archive of a folder
 alias numFiles='echo $(ls -1 | wc -l)'       			 		 					                   # numFiles:     Count of non-hidden files in current dir
 alias make1mb='mkfile 1m ./1MB.dat'         				 		 					               # make1mb:      Creates a file of 1mb size (all zeros)
 alias make5mb='mkfile 5m ./5MB.dat'         				 							               # make5mb:      Creates a file of 5mb size (all zeros)
@@ -243,7 +244,7 @@ ffe () { /usr/bin/find . -name '*'"$@" ; }  # ffe:      Find file whose name end
 #   6. NETWORKING
 #   ---------------------------
 
-alias myip='dig +short myip.opendns.com @resolver1.opendns.com'                 	# myip:         Public facing IP Address
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'                 # myip:         Public facing IP Address
 alias netCons='lsof -i'                             							# netCons:      Show all open TCP/IP sockets
 alias flushDNS='dscacheutil -flushcache'            							# flushDNS:     Flush out the DNS Cache
 alias lsock='sudo /usr/sbin/lsof -i -P'             							# lsock:        Display open sockets
