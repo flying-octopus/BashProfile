@@ -14,5 +14,3 @@ Program that visualises colours (256-colors.sh) in terminal taken from : [FLOZz'
 
 ### Ending note
 Feel free to customize this bash profile.
-
-
