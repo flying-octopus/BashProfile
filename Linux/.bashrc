@@ -78,10 +78,12 @@
     export CLICOLOR=1
     export LSCOLORS=ExFxBxDxCxegedabagacad
     alias ls='ls --color'
-
+    
 #   Set the terminal programs language to english
 #   ------------------------------------------------------------ 
-    export LANG=en
+    unset LC_ALL
+    export LC_MESSAGES=C
+
 
 
 #   -----------------------------
