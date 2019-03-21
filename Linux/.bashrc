@@ -27,9 +27,9 @@
     pink="\[\033[0;95m\]"
     colour="\[\033[0m\]"
     light_green="\[\e[38;5;121m\]"
-    bluish="\[\e[38;5;105m\]"
+    bluish="\[\e[1m\[\e[38;5;4m\]" #same as blue in temrinal settings
     light_yellow="\[\e[93m\]"
-    lighter_yellow="\[\e[33;1m\]"
+    lighter_yellow="\[\e[38;5;11m\]"
     macos_orange="\[\e[38;5;222m\]"
      
 #   Enable tab completion for git 
