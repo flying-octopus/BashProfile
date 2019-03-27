@@ -10,93 +10,136 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/EDITOR
+
+# Last Substitute Search Pattern:
+~MSle0&spring
+
+# Last Substitute String:
+$summer
+
 # Command Line History (newest to oldest):
-:q
-|2,0,1553195439,,"q"
-:color morningq
-|2,0,1553193888,,"color morningq"
-:qa!
-|2,0,1553193798,,"qa!"
-:colorscheme koehler
-|2,0,1553193786,,"colorscheme koehler"
-:color koehler
-|2,0,1553193778,,"color koehler"
-:color pablo
-|2,0,1553193773,,"color pablo"
-:color evening
-|2,0,1553193567,,"color evening"
-:color elflord
-|2,0,1553193545,,"color elflord"
-:color desert
-|2,0,1553193541,,"color desert"
-:color delek
-|2,0,1553193538,,"color delek"
-:color darkblue
-|2,0,1553193535,,"color darkblue"
-:color blue
-|2,0,1553193532,,"color blue"
-:color zellner
-|2,0,1553193523,,"color zellner"
-:color torte
-|2,0,1553193517,,"color torte"
-:color slate
-|2,0,1553193509,,"color slate"
-:color shine
-|2,0,1553193494,,"color shine"
-:color ron
-|2,0,1553193487,,"color ron"
-:color peachpuff
-|2,0,1553193454,,"color peachpuff"
-:color murphy
-|2,0,1553193430,,"color murphy"
-:color morning
-|2,0,1553193426,,"color morning"
-:color industry
-|2,0,1553193414,,"color industry"
-:color default
-|2,0,1553193379,,"color default"
-:so check_colors.vim
-|2,0,1553193315,,"so check_colors.vim"
-:colorscheme default
-|2,0,1553193231,,"colorscheme default"
-:Q
-|2,0,1553192839,,"Q"
-:help encoding
-|2,0,1553192631,,"help encoding"
-:set encoding=utf-8
-|2,0,1553192467,,"set encoding=utf-8"
-:colorscheme
-|2,0,1553190417,,"colorscheme"
 :wq
-|2,0,1553188899,,"wq"
-:qw
-|2,0,1553188897,,"qw"
-:setencoding=utf-8
-|2,0,1553188862,,"setencoding=utf-8"
-:n
-|2,0,1553187365,,"n"
-:h vimtex
-|2,0,1553187097,,"h vimtex"
-:PlugInstall
-|2,0,1553187087,,"PlugInstall"
-:qa
-|2,0,1553186616,,"qa"
-:!q
-|2,0,1553186600,,"!q"
-:dq
-|2,0,1553186504,,"dq"
-:.!
-|2,0,1553186011,,".!"
+|2,0,1553627000,,"wq"
+:q!
+|2,0,1553620167,,"q!"
+:q1
+|2,0,1553620165,,"q1"
+:q
+|2,0,1553620163,,"q"
+:Q
+|2,0,1553620162,,"Q"
+:Wq
+|2,0,1553552260,,"Wq"
+:edit FIL
+|2,0,1553551761,,"edit FIL"
+:!ls
+|2,0,1553551666,,"!ls"
+:set nocp
+|2,0,1553551660,,"set nocp"
+:e ~/.vimrc
+|2,0,1553551423,,"e ~/.vimrc"
+:help
+|2,0,1553551313,,"help"
+:set nohlsearch
+|2,0,1553551235,,"set nohlsearch"
+:/ignore\c
+|2,0,1553551227,,"/ignore\\c"
+:nohlsearch
+|2,0,1553551212,,"nohlsearch"
+:set hls is
+|2,0,1553551209,,"set hls is"
+:hls is
+|2,0,1553551206,,"hls is"
+:set noic
+|2,0,1553551161,,"set noic"
+:set ic
+|2,0,1553551135,,"set ic"
+:ic
+|2,0,1553551111,,"ic"
+:r !ls --oneline
+|2,0,1553550500,,"r !ls --oneline"
+:r !ls
+|2,0,1553550485,,"r !ls"
+:r tescik
+|2,0,1553550347,,"r tescik"
+:'<,'>w tescik
+|2,0,1553550234,,"'<,'>w tescik"
+:!rm TEST
+|2,0,1553550156,,"!rm TEST"
+:w TEST
+|2,0,1553550125,,"w TEST"
+:!dir
+|2,0,1553550069,,"!dir"
 :!
-|2,0,1553186007,,"!"
-:s
-|2,0,1553185996,,"s"
-:1
-|2,0,1553185984,,"1"
+|2,0,1553550063,,"!"
+:s/spring/summer/g
+|2,0,1553549875,,"s/spring/summer/g"
+:s/thee/the/g
+|2,0,1553549861,,"s/thee/the/g"
+:qw
+|2,0,1553551621,,"qw"
+:r $VIMRUNTIME/vimrc_example.vim
+|2,0,1553551538,,"r $VIMRUNTIME/vimrc_example.vim"
+:syn list
+|2,0,1553548575,,"syn list"
+:syn list:
+|2,0,1553548571,,"syn list:"
+::q
+|2,0,1553546661,,":q"
+:colorscheme elflord
+|2,0,1553546019,,"colorscheme elflord"
+:colorscheme desert
+|2,0,1553546015,,"colorscheme desert"
+:colorscheme delek
+|2,0,1553546006,,"colorscheme delek"
+:colorscheme blue
+|2,0,1553546001,,"colorscheme blue"
+:colorscheme darkblue
+|2,0,1553545997,,"colorscheme darkblue"
+:colorscheme zellner
+|2,0,1553545985,,"colorscheme zellner"
+:colorscheme shine
+|2,0,1553545979,,"colorscheme shine"
+:colorscheme peachpuff
+|2,0,1553545971,,"colorscheme peachpuff"
+:colorscheme koehler
+|2,0,1553545955,,"colorscheme koehler"
+:view INSTALL
+|2,0,1553246979,,"view INSTALL"
+:'<,'>
+|2,0,1553246966,,"'<,'>"
+:color default
+|2,0,1553201548,,"color default"
+:color koehler
+|2,0,1553201440,,"color koehler"
+:h vimtutor
+|2,0,1553198332,,"h vimtutor"
+:vimtutor
+|2,0,1553198320,,"vimtutor"
 :h
-|2,0,1553185890,,"h"
+|2,0,1553198279,,"h"
 
 # Search String History (newest to oldest):
+?/EDITOR
+|2,1,1553552322,47,"EDITOR"
+? ignore\c
+|2,1,1553551227,,"ignore\\c"
+?/ignore
+|2,1,1553551140,47,"ignore"
+? spring
+|2,1,1553549875,,"spring"
+? thee
+|2,1,1553549861,,"thee"
+??errroor
+|2,1,1553549670,63,"errroor"
+?/errroor
+|2,1,1553549626,47,"errroor"
+? \<end\>
+|2,1,1553547250,,"\\<end\\>"
+? \<Somebody\>
+|2,1,1553547230,,"\\<Somebody\\>"
 
 # Expression History (newest to oldest):
 
@@ -105,239 +148,495 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	http://iccf-holland.org/click5.html
+	
+|3,0,0,0,2,0,1553551826,"http://iccf-holland.org/click5.html",""
 "1	LINE	0
-	dwwdwadwda
-|3,0,1,1,1,0,1553183279,"dwwdwadwda"
+	
+	
+|3,0,1,1,2,0,1553552086,"",""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1553552084,""
+"3	LINE	0
+	source $VIMRUNTIME/defaults.vim
+|3,0,3,1,1,0,1553552083,"source $VIMRUNTIME/defaults.vim"
+"4	LINE	0
+	" Get the defaults that most users want.
+|3,0,4,1,1,0,1553552083,"\" Get the defaults that most users want."
+"5	LINE	0
+	endif
+|3,0,5,1,1,0,1553552081,"endif"
+"6	LINE	0
+	  endif
+|3,0,6,1,1,0,1553552081,"  endif"
+"7	LINE	0
+	    set undofile	" keep an undo file (undo changes after closing)
+|3,0,7,1,1,0,1553552080,"    set undofile	\" keep an undo file (undo changes after closing)"
+"8	LINE	0
+	  if has('persistent_undo')
+|3,0,8,1,1,0,1553552080,"  if has('persistent_undo')"
+"9	LINE	0
+	  set backup		" keep a backup file (restore to previous version)
+|3,0,9,1,1,0,1553552079,"  set backup		\" keep a backup file (restore to previous version)"
 "q	CHAR	0
-	€kb€kb
-|3,0,26,0,1,0,1553185923,"€kb€kb"
-""-	CHAR	0
-		dzialanie ( kom );
-|3,1,36,0,1,0,1553193549,"	dzialanie ( kom );"
+	Â€kbÂ€kb
+|3,0,26,0,1,0,1553185923,"Â€kbÂ€kb"
+"-	CHAR	0
+	"
+|3,0,36,0,1,0,1553618333,"\""
 
 # File marks:
-'0  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,48,1,0,1553193889,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'1  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,49,1,0,1553193798,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'2  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,50,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'3  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,51,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'4  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,52,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'5  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,53,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'6  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,54,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'7  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,55,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'8  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,56,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
-'9  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,57,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
+'0  1  0  ~/.config/zathura/zathurarc
+|4,48,1,0,1553627000,"~/.config/zathura/zathurarc"
+'1  56  0  ~/.bash_profile
+|4,49,56,0,1553620167,"~/.bash_profile"
+'2  969  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,50,969,0,1553618648,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+'3  1  34  ~/.bash_profile
+|4,51,1,34,1553618338,"~/.bash_profile"
+'4  1  34  ~/.bash_profile
+|4,52,1,34,1553618338,"~/.bash_profile"
+'5  302  22  ~/.bash_profile
+|4,53,302,22,1553552435,"~/.bash_profile"
+'6  302  22  ~/.bash_profile
+|4,54,302,22,1553552435,"~/.bash_profile"
+'7  301  22  ~/.bash_profile
+|4,55,301,22,1553552435,"~/.bash_profile"
+'8  301  22  ~/.bash_profile
+|4,56,301,22,1553552435,"~/.bash_profile"
+'9  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,57,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193889,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193889,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193889,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193889,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193798,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193798,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193798,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553193798,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  25  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,25,0,1553193555,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  1  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,1,0,1553192844,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
--'  113  0  ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
-|4,39,113,0,1553192682,"~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c"
+-'  1  0  ~/.config/zathura/zathurarc
+|4,39,1,0,1553627000,"~/.config/zathura/zathurarc"
+-'  56  0  ~/.bash_profile
+|4,39,56,0,1553620167,"~/.bash_profile"
+-'  56  0  ~/.bash_profile
+|4,39,56,0,1553620167,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1553620126,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1553620126,"~/.bash_profile"
+-'  969  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,969,0,1553618648,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  969  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,969,0,1553618648,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  969  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,969,0,1553618648,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  969  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,969,0,1553618648,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  1  77  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,1,77,1553618643,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  1  77  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,1,77,1553618643,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  1  77  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,1,77,1553618643,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  1  77  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,1,77,1553618643,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  351  2  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,351,2,1553618641,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  351  2  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,351,2,1553618641,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  351  2  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,351,2,1553618641,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  351  2  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,351,2,1553618641,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  300  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,300,0,1553618640,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  300  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,300,0,1553618640,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  300  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,300,0,1553618640,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  300  0  /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+|4,39,300,0,1553618640,"/private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio"
+-'  1  34  ~/.bash_profile
+|4,39,1,34,1553618338,"~/.bash_profile"
+-'  1  34  ~/.bash_profile
+|4,39,1,34,1553618338,"~/.bash_profile"
+-'  302  22  ~/.bash_profile
+|4,39,302,22,1553552435,"~/.bash_profile"
+-'  301  22  ~/.bash_profile
+|4,39,301,22,1553552435,"~/.bash_profile"
+-'  301  22  ~/.bash_profile
+|4,39,301,22,1553552435,"~/.bash_profile"
+-'  302  22  ~/.bash_profile
+|4,39,302,22,1553552435,"~/.bash_profile"
+-'  301  22  ~/.bash_profile
+|4,39,301,22,1553552435,"~/.bash_profile"
+-'  301  22  ~/.bash_profile
+|4,39,301,22,1553552435,"~/.bash_profile"
+-'  69  17  ~/.bash_profile
+|4,39,69,17,1553552401,"~/.bash_profile"
+-'  68  17  ~/.bash_profile
+|4,39,68,17,1553552401,"~/.bash_profile"
+-'  68  17  ~/.bash_profile
+|4,39,68,17,1553552401,"~/.bash_profile"
+-'  69  17  ~/.bash_profile
+|4,39,69,17,1553552401,"~/.bash_profile"
+-'  68  17  ~/.bash_profile
+|4,39,68,17,1553552401,"~/.bash_profile"
+-'  68  17  ~/.bash_profile
+|4,39,68,17,1553552401,"~/.bash_profile"
+-'  65  34  ~/.bash_profile
+|4,39,65,34,1553552346,"~/.bash_profile"
+-'  64  34  ~/.bash_profile
+|4,39,64,34,1553552346,"~/.bash_profile"
+-'  64  34  ~/.bash_profile
+|4,39,64,34,1553552346,"~/.bash_profile"
+-'  65  34  ~/.bash_profile
+|4,39,65,34,1553552346,"~/.bash_profile"
+-'  64  34  ~/.bash_profile
+|4,39,64,34,1553552346,"~/.bash_profile"
+-'  64  34  ~/.bash_profile
+|4,39,64,34,1553552346,"~/.bash_profile"
+-'  18  0  ~/.bash_profile
+|4,39,18,0,1553552322,"~/.bash_profile"
+-'  18  0  ~/.bash_profile
+|4,39,18,0,1553552322,"~/.bash_profile"
+-'  18  0  ~/.bash_profile
+|4,39,18,0,1553552322,"~/.bash_profile"
+-'  18  0  ~/.bash_profile
+|4,39,18,0,1553552322,"~/.bash_profile"
+-'  18  0  ~/.bash_profile
+|4,39,18,0,1553552322,"~/.bash_profile"
+-'  18  0  ~/.bash_profile
+|4,39,18,0,1553552322,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1553552305,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1553552305,"~/.bash_profile"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  1  10  ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+|4,39,1,10,1553552262,"~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  14  1  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,14,1,1553552242,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
+-'  1  0  ~/Documents/computer_science/GitHub/BashProfile/README.md
+|4,39,1,0,1553552232,"~/Documents/computer_science/GitHub/BashProfile/README.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/zathura/zathurarc
+	*	1553626999	0
+	"	1	0
+
+> ~/.bash_profile
+	*	1553620165	0
+	"	56	0
+	.	57	0
+	+	65	38
+	+	69	22
+	+	65	34
+	+	56	0
+	+	57	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorvdgJio
+	*	1553618643	0
+	"	969	0
+
+> ~/Documents/computer_science/GitHub/BashProfile/.git/COMMIT_EDITMSG
+	*	1553552260	0
+	"	1	10
+	^	1	11
+	.	1	11
+	+	1	11
+
+> ~/Documents/computer_science/GitHub/BashProfile/README.md
+	*	1553552241	0
+	"	14	1
+	^	14	2
+	.	14	1
+	+	14	1
+
+> ~/tescik
+	*	1553552139	0
+	"	13	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorbMJIiS
+	*	1553552126	0
+	"	970	0
+
+> ~/.vimrc
+	*	1553552119	0
+	"	9	0
+	^	17	0
+	.	17	0
+	+	32	16
+	+	33	0
+	+	32	17
+	+	30	18
+	+	28	0
+	+	1	0
+	+	24	81
+	+	24	52
+	+	24	0
+	+	23	0
+	+	18	0
+	+	16	0
+	+	17	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorTlAJoM
+	*	1553551954	0
+	"	973	6
+	.	892	0
+	+	386	0
+	+	389	0
+	+	386	0
+	+	388	0
+	+	389	0
+	+	385	0
+	+	406	59
+	+	431	14
+	+	432	0
+	+	431	54
+	+	456	70
+	+	567	0
+	+	665	0
+	+	651	0
+	+	713	0
+	+	729	8
+	+	728	13
+	+	734	3
+	+	742	0
+	+	757	50
+	+	780	35
+	+	806	27
+	+	808	65
+	+	892	0
+
+> /usr/local/Cellar/vim/8.1.1000/share/vim/vim81/doc/help.txt
+	*	1553551340	0
+	"	22	0
+
+> ~/Documents/computer_science/wdi/cwiczenia/IIsemestr/tree/drzewo.c
+	*	1553548645	0
+	"	42	16
+	.	42	0
+	+	42	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorGHHq6R
+	*	1553548424	0
+	"	362	76
+	^	362	0
+	.	362	0
+	+	2	0
+	+	361	100
+	+	361	102
+	+	361	152
+	+	361	153
+	+	361	212
+	+	361	269
+	+	361	310
+	+	361	311
+	+	361	389
+	+	361	417
+	+	361	418
+	+	361	480
+	+	361	481
+	+	361	536
+	+	361	538
+	+	361	601
+	+	361	603
+	+	361	677
+	+	361	679
+	+	361	726
+	+	363	0
+	+	2	0
+	+	363	0
+	+	361	310
+	+	362	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorgNuKTp
+	*	1553548197	0
+	"	83	20
+	.	83	0
+	+	83	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorExFcLk
+	*	1553547947	0
+	"	339	0
+	^	134	42
+	.	339	0
+	+	85	31
+	+	109	45
+	+	132	46
+	+	134	41
+	+	203	44
+	+	222	24
+	+	294	28
+	+	316	0
+	+	320	0
+	+	339	0
+	+	222	24
+	+	339	0
+	+	222	0
+	+	339	0
+	+	222	0
+	+	339	0
+
+> ~/Documents/computer_science/wdi/cwiczenia/IIsemestr/pointerlist_visualisation/drawlist.c
+	*	1553546263	0
+	"	93	0
+	^	32	10
+	.	121	32
+	+	121	32
+
+> ~/Documents/computer_science/wdi/cwiczenia/IIsemestr/bst+avl/avl.c
+	*	1553546183	0
+	"	114	1
+	.	114	0
+	+	132	0
+	+	114	0
+
+> ~/Downloads/imlib2-1.4.4/INSTALL
+	*	1553247005	0
+	"	14	0
+	^	14	0
+
+> ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projektkolejkakopiec.c
+	*	1553246344	0
+	"	19	29
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutorTe979v
+	*	1553246242	0
+	"	171	16
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutora5mjT0
+	*	1553201915	0
+	"	253	0
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutortJaJJM
+	*	1553201145	0
+	"	304	33
+	^	134	42
+	.	251	0
+	+	76	0
+	+	85	10
+	+	109	45
+	+	132	46
+	+	134	41
+	+	203	44
+	+	222	46
+	+	250	0
+	+	249	0
+	+	251	0
+
+> ~/tutor
+	*	1553200124	0
+	"	4	6
+	^	6	30
+	.	6	29
+	+	2	12
+	+	6	0
+	+	5	8
+	+	3	5
+	+	4	6
+	+	6	29
+
+> /private/var/folders/wb/9qwt3_qx6jq4rz9hkm25cq780000gn/T/tutor8MjY0c
+	*	1553199208	0
+	"	70	21
+
+> /usr/local/Cellar/vim/8.1.1000/share/vim/vim81/doc/usr_01.txt
+	*	1553198332	0
+	"	108	38
 
 > ~/Documents/computer_science/wdi/cwiczenia/Project_PrioQueue/projekt.c
 	*	1553193889	0
@@ -364,13 +663,6 @@
 	^	2	0
 	.	1	26
 	+	1	26
-
-> ~/Documents/computer_science/wdi/cwiczenia/IIsemestr/pointerlist_visualisation/drawlist.c
-	*	1553188978	0
-	"	121	0
-	^	121	34
-	.	121	32
-	+	121	32
 
 > ~/Documents/math/latex/wzoryam1.1.tex
 	*	1553188300	0
@@ -400,33 +692,15 @@
 	*	1553186928	0
 	"	1	0
 
-> ~/Documents/computer_science/wdi/cwiczenia/IIsemestr/bst+avl/avl.c
-	*	1553186786	0
-	"	133	0
-
 > ~/Documents/math/latex/zadanie_mamy_v2.tex
 	*	1553186692	0
 	"	1	16
 	.	1	0
 	+	1	0
 
-> ~/.vimrc
-	*	1553186217	0
-	"	5	0
-	^	4	18
-	.	4	18
-	+	6	16
-	+	7	0
-	+	6	17
-	+	4	18
-
 > ~/Documents/computer_science/wdi/cwiczenia/IIsemestr/bst+avl/.vimrc
 	*	1553186129	0
 	"	1	0
-
-> /usr/local/Cellar/vim/8.1.1000/share/vim/vim81/doc/help.txt
-	*	1553185923	0
-	"	235	76
 
 > ~/.viminfo
 	*	1553185866	0
@@ -435,10 +709,6 @@
 > /usr/share/vim/vim80/doc/help.txt
 	*	1553181161	0
 	"	228	0
-
-> ~/.bash_profile
-	*	1553174583	0
-	"	59	0
 
 > /usr/share/vim/vim80/doc/autocmd.txt
 	*	1553168318	0
